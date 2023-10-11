@@ -44,8 +44,6 @@ class Trie {
    * @returns
    */
   search(word) {
-    // TODO: Implement
-
     let current = this.root;
     for (let character of word) {
       if (!current || current?.children[character] === undefined) {

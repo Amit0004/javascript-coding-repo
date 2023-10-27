@@ -68,5 +68,5 @@ trie.insert("DOG");
 trie.insert("MAT");
 
 // search something
-console.log(trie.search("MAT")); // false
-console.log(trie.search("DOG"));
+console.log(trie.search("MA")); // false
+console.log(trie.search("DO"));

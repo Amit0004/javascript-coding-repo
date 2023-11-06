@@ -163,11 +163,17 @@ trie.insert("piper");
 trie.insert("picked");
 trie.insert("pickled");
 trie.insert("pepper");
+trie.insert("amit");
+trie.insert("abhishek");
+trie.insert("ally");
+trie.insert("alice");
 
 // check contains method
 console.log(trie.contains("picked"));
 console.log(trie.contains("pepper"));
 trie.remove("pepper");
+trie.remove("alice");
+
 // check find method
-console.log(trie.find("pi"));
-console.log(trie.find("pe"));
+console.log(trie.find("p"));
+console.log(trie.find("al"));

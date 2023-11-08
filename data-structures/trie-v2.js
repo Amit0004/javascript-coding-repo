@@ -54,6 +54,7 @@ class Trie {
           // if it is, we set the end flag to true.
           node.end = true;
         }
+        console.log({ node });
       }
     };
 
